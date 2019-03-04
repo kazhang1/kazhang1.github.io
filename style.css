@@ -1,0 +1,91 @@
+
+
+body {
+  margin: 0;
+  font-family: Tw Cen MT;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.topnav a:hover {
+  color: #1589FF;
+}
+
+.topnav a.active {
+  color: #1589FF;
+}
+
+
+table#table{
+    border:1px solid black;
+	font-family: Calibri;
+}
+
+table#table td{
+    border:1px solid black;
+}
+
+table#table th{
+    border:1px solid black;
+}
+
+table#table tbody tr td:nth-child(odd){ 
+	background: #b8d1f3;
+}
+
+
+table#table tbody tr td:nth-child(even){
+	background: #dae5f4;
+}
+
+div.scroll {
+  background-color: white;
+  width: 400px;
+  height: 110px;
+  overflow: auto;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
